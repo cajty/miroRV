@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+# Add any auth-service specific configurations here
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
